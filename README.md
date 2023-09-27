@@ -14,9 +14,6 @@ Predict distinct Airbnb categories (entire place, apartment, etc.) (Classificati
  
 Both tasks involve training multiple ML models and saving model metrics, such as precision, rmse, etc. The models are further optimised by hyper parameter tuning. The best model is saved as a joblib file along with its hyperparameters in a json format. 
 
-Depending on the CV, the user might want to use a short version of the blurb, so this document presents two versions of the blurb, one with a detailed description of each task, and the other stating the basic knowledge acquired. The short description might be more suitable if you already have another section with the tools and applications you know.
-
-
 
 *skills used: sci-kit-learn, numpy, pandas, matplolib, PyTorch, seaborn,
 
