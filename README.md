@@ -14,6 +14,13 @@ Predict distinct Airbnb categories (entire place, apartment, etc.) (Classificati
  
 Both tasks involve training multiple ML models and saving model metrics, such as precision, rmse, etc. The models are further optimised by hyper parameter tuning. The best model is saved as a joblib file along with its hyperparameters in a json format. 
 
+- Processed and cleaned dataset using Pandas to improve data quality.
+- Visually analysed the dataset to understand it better.
+- Performed feature selection to understand different features affecting the target columns.
+- Trained, compared and evaluated machine learning models (Random Forest, Linear/Logistic Regression, XGBoost etc) for classification (determining different Airbnb categories) & regression (predicting tariff) use cases.
+- Performed hyperparameter tuning and cross validation to optimise the results for particular metrics, such as precision in classification. 
+
+
 
 *skills used: sci-kit-learn, numpy, pandas, matplolib, PyTorch, seaborn,
 
