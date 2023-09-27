@@ -74,8 +74,8 @@ Much like the previous milestones, I implemented different classification models
 
 Here I learnt about neural networks. I used a new tool called PyTorch which allows me to create objects that hold tensor gradient values. In order to train my model, I had to process the data into a custom PyTorch dataset, which is then loaded into the model using DataLoader. Then finally, these will go through a training loop that trains the model based on training neural network functions. For my first model, I use a basic Linear regression model with 2 layers and a ReLU activation function. I tuned the model using a variety of parameters configuring learning rates and number of hidden layers.
 
-##Describr Neural network model
-    This code is a machine learning script in Python that is used to train a model to predict the nightly price of Airbnb listings based on certain features. 
+## Describr Neural network model
+This code is a machine learning script in Python that is used to train a model to predict the nightly price of Airbnb listings based on certain features. 
 
     The script starts by importing several libraries that are used throughout the code, including matplotlib, numpy, pandas, and PyTorch. 
 
