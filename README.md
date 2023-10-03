@@ -111,7 +111,7 @@ The train function is used to train the model using the given data and hyperpara
 
 The function first creates a PyTorch data loader object from the dataset, using the batch size as the number of samples per batch. It then iterates over the number of epochs, and within each epoch it iterates over the data loader object. For each batch of data, the function retrieves the input features and labels, feeds them to the model to make a prediction, and calculates the loss between the prediction and the true labels. It then performs a backward pass to calculate the gradients of the loss with respect to the model's parameters, and updates the model's parameters using the optimizer object. Finally, it returns the trained model.
 
-    Finally, the test function is used to evaluate the performance of the trained model on a separate test set.
+Finally, the test function is used to evaluate the performance of the trained model on a separate test set.
 
 ![2](https://github.com/Warayut-Muknumporn/Modelling-Airbnb-s-property-listing-dataset/assets/116235617/66bc9260-8717-433f-95a5-48a35827b404)
 ![1](https://github.com/Warayut-Muknumporn/Modelling-Airbnb-s-property-listing-dataset/assets/116235617/d87033a4-b21f-44ca-8999-bca4c80c16ca)
