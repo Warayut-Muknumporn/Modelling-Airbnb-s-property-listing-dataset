@@ -100,16 +100,16 @@ Next, it defines several functions that are used to clean and preprocess the dat
 
  The FullyConnectedNet class represents a fully connected neural network model with three hidden layers and one output layer. The input size is determined by the number of features in the data, and the output size is determined by the number of classes in the labels. The hidden sizes are determined by the number of neurons in each hidden layer. The forward function defines the forward pass of the model, in which the input data is passed through the fully connected layers and passed through an activation function (ReLU) before the final prediction is made.
 
-    The train function is used to train the model using the given data and hyperparameters. It takes the following arguments:
+The train function is used to train the model using the given data and hyperparameters. It takes the following arguments:
 
-        model: the model to be trained
-        dataset: a PyTorch dataset object that contains the training data
-        optimizer: an optimizer object that is used to update the model's parameters during training
-        loss_fn: a loss function that is used to calculate the difference between the model's predictions and the true labels
-        _epochs: the number of training epochs to run
-        batch_size: the number of samples to include in each mini-batch
+  model: the model to be trained
+  dataset: a PyTorch dataset object that contains the training data
+  optimizer: an optimizer object that is used to update the model's parameters during training
+  loss_fn: a loss function that is used to calculate the difference between the model's predictions and the true labels
+  _epochs: the number of training epochs to run
+  batch_size: the number of samples to include in each mini-batch
 
-    The function first creates a PyTorch data loader object from the dataset, using the batch size as the number of samples per batch. It then iterates over the number of epochs, and within each epoch it iterates over the data loader object. For each batch of data, the function retrieves the input features and labels, feeds them to the model to make a prediction, and calculates the loss between the prediction and the true labels. It then performs a backward pass to calculate the gradients of the loss with respect to the model's parameters, and updates the model's parameters using the optimizer object. Finally, it returns the trained model.
+The function first creates a PyTorch data loader object from the dataset, using the batch size as the number of samples per batch. It then iterates over the number of epochs, and within each epoch it iterates over the data loader object. For each batch of data, the function retrieves the input features and labels, feeds them to the model to make a prediction, and calculates the loss between the prediction and the true labels. It then performs a backward pass to calculate the gradients of the loss with respect to the model's parameters, and updates the model's parameters using the optimizer object. Finally, it returns the trained model.
 
     Finally, the test function is used to evaluate the performance of the trained model on a separate test set.
 
