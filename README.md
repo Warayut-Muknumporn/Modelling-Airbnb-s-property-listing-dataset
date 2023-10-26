@@ -3,6 +3,14 @@ Build a framework to systematically train, tune, and evaluate models on several 
 
 Airbnb Property Price Prediction Model
 
+Airbnb Listing project, in which you will develop a multitude of  classification & regression models and compare their performance across different use cases.  The user will load the Airbnb dataset which contains both numerical & categorical data and perform cleaning transformations on this data. You will address the following:
+
+Predict the tariff of each listing based on a multitude of features (Regression) 
+Predict distinct Airbnb categories (entire place, apartment, etc.) (Classification)
+ 
+Both tasks involve training multiple ML models and saving model metrics, such as precision, rmse, etc. The models are further optimised by hyper parameter tuning. The best model is saved as a joblib file along with its hyperparameters in a json format. 
+
+
 # Project Description
 Airbnb hosts millions of listings on their website. Sometimes it is difficult to decide what range of nightly price to set for your property but also what features and descriptions to use for the most success. On the flip side, as a consumer, it can be difficult to decipher what properties are listed at a fair price in comparison to the history of previous listing prices. Therefore, it is useful to know which features/traits are most influential for the price per night for both hosting/staying.
 Using web-scraped data on Airbnb of 1000 properties, generate simple regression models and a neural network to best predict the price per night based on quantitative features that Airbnb provides. 
