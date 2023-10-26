@@ -6,6 +6,7 @@ Airbnb Property Price Prediction Model
 Airbnb Listing project, in which you will develop a multitude of  classification & regression models and compare their performance across different use cases.  The user will load the Airbnb dataset which contains both numerical & categorical data and perform cleaning transformations on this data. You will address the following:
 
 Predict the tariff of each listing based on a multitude of features (Regression) 
+
 Predict distinct Airbnb categories (entire place, apartment, etc.) (Classification)
  
 Both tasks involve training multiple ML models and saving model metrics, such as precision, rmse, etc. The models are further optimised by hyper parameter tuning. The best model is saved as a joblib file along with its hyperparameters in a json format. 
